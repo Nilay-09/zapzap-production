@@ -1,6 +1,9 @@
+
 import { ContainerScroll } from "@/components/global/HeroSection/container-scroll-animation";
+
 import Navbar from "@/components/global/Navbar";
 import { Button } from "@/components/ui/button";
+import { clients, products } from '@/lib/constants'
 import Image from "next/image";
 
 export default function Home() {
@@ -22,7 +25,7 @@ export default function Home() {
                     Start For Free Today
                   </span>
                 </Button>
-                <h1 className="text-5xl md:text-8xl  bg-clip-text text-transparent bg-gradient-to-b from-white to-neutral-600 font-sans font-bold">
+                <h1 className="text-5xl md:text-8xl bg-clip-text text-transparent bg-gradient-to-b from-white to-neutral-600 font-sans font-bold">
                   Automate Your Work With ZapZap
                 </h1>
               </div>
@@ -31,6 +34,11 @@ export default function Home() {
         </div>
 
       </section>
+
+
+      
+
+
     </div>
   );
 }
